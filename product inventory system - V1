@@ -1,0 +1,16 @@
+# product inventory system - V1 !!
+
+
+product_name='apple'
+product_category="fruit"
+product_stock=200
+
+product_price=10
+discount_amount=0.1
+final_price=product_price-(discount_amount*product_price)#calculating the price after the discount
+
+print (f"product name:  {product_name}")
+
+print(f"product category:  {product_category}")
+print(f"product stock:  {product_stock}")
+print(f"price after discount:  {final_price}")
